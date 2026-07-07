@@ -4,6 +4,7 @@ A 4-bit Arithmetic Logic Unit (ALU) designed and functionally verified in Verilo
 Overview:
 The ALU takes two 4-bit inputs (a, b) and a 3-bit operation select (op), and produces a 4-bit result along with a carry-out flag. It supports 8 operations spanning arithmetic and bitwise logic.
 
+check image.png
 
 
 Files:
