@@ -8,8 +8,8 @@ check image.png
 
 
 Files:
-code.sv — ALU design (combinational logic, always @(*) block with a case statement on op)
-testbench.sv — Testbench exercising all 8 operations, including an overflow case for addition
+code.sv: ALU design (combinational logic, always @(*) block with a case statement on op)
+testbench.sv: Testbench exercising all 8 operations, including an overflow case for addition
 
 
 How it was verified:
@@ -20,7 +20,7 @@ Run it yourself
 On EDA Playground:
 
 
-Paste alu_4bit.sv into the Design pane and tb_alu_4bit.sv into the Testbench pane
+Paste code.sv into the Design pane and testbench.sv into the Testbench pane
 Select Icarus Verilog as the simulator
 Click Run
 
